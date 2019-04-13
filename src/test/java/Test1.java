@@ -11,4 +11,6 @@ public class Test1 {
         // assert statements
         assertTrue(tester.dummy());
     }
+
+    //how to stash
 }
