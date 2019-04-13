@@ -3,15 +3,16 @@ public class ABC {
     public static void main(String[] args) {
         System.out.println("test 1 br");
         ABC abc = new ABC();
-        abc.dummy();
+
+        System.out.println(abc.toString());
+        System.out.println(abc.dummy());
 
         int i = 0;
 
         while (i < 1000) {
             try {
                 Thread.sleep(1000);
-                System.out.println("Slept ... in branch  " + "["+i+"]");
-                i++;
+                System.out.println("Slept ... in branch  " + "[" + i++ + "]");
                 doSomething();
 
             } catch (InterruptedException e) {
@@ -24,7 +25,9 @@ public class ABC {
         System.out.println("Doing additional work ...");
     }
 
-    public boolean dummy() {
+
+    @SuppressWarnings("unused")
+    protected boolean dummy() {
         return true;
     }
 
