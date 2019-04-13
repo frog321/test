@@ -26,7 +26,7 @@ public class ABC {
     }
 
 
-    @SuppressWarnings("unused")
+    @SuppressWarnings("WeakerAccess")
     protected boolean dummy() {
         return true;
     }
