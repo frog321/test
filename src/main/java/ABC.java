@@ -25,7 +25,6 @@ public class ABC {
         System.out.println("Doing additional work ...");
     }
 
-
     @SuppressWarnings("WeakerAccess")
     protected boolean dummy() {
         return true;
