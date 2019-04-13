@@ -5,7 +5,7 @@ public class ABC {
 
         int i = 0;
 
-        while (i < 100) {
+        while (i < 1000) {
             try {
                 Thread.sleep(1000);
                 System.out.println("Slept ...  " + "["+i+"]");
