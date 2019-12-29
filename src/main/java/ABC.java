@@ -5,7 +5,6 @@ public class ABC {
         ABC abc = new ABC();
 
         System.out.println(abc.toString());
-        System.out.println(abc.dummy());
 
         int i = 0;
 
@@ -25,9 +24,5 @@ public class ABC {
         System.out.println("Doing additional work ...");
     }
 
-    @SuppressWarnings("WeakerAccess")
-    protected boolean dummy() {
-        return true;
-    }
 
 }

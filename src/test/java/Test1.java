@@ -32,8 +32,6 @@ public class Test1 {
             System.out.println("L is null");
         }
 
-        // assert statements
-        assertTrue(tester.dummy());
     }
 
     @Test
